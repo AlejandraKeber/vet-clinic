@@ -80,3 +80,13 @@ SET owner_id = (
         SELECT id FROM owners
         WHERE full_name = 'Dean Winchester')
 WHERE name in ('Angemon', 'Boarmon');
+
+-- Add join table for visits
+INSERT INTO vets (name, age, date_of_graduation)
+VALUES ('William Tatcher', 45, 'Apr 23, 2000');
+INSERT INTO vets (name, age, date_of_graduation)
+VALUES ('Maisy Smith', 26, 'Jan 17, 2019');
+INSERT INTO vets (name, age, date_of_graduation)
+VALUES ('Stephanie Mendez', 64, 'May 4, 1981');
+INSERT INTO vets (name, age, date_of_graduation)
+VALUES ('Jack Harkness', 38, 'Jun 8, 2008');
