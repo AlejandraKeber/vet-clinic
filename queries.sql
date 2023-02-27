@@ -219,3 +219,7 @@ FROM visits v
 WHERE ve.name = 'Maisy Smith'
 GROUP BY s.name
 ORDER BY total_visits DESC;
+
+-- WEEK 2 DAY 1
+
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4;
