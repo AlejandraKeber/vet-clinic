@@ -61,3 +61,5 @@ CREATE TABLE visits(
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 
 CREATE INDEX animal_visits ON visits(animal_id ASC);
+
+CREATE INDEX vet_visits ON visits(vet_id ASC);
