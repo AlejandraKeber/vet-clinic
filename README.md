@@ -119,6 +119,10 @@ You can deploy this project using:
 - Twitter: [@KeberAlejandra](https://twitter.com/KeberAlejandra)
 - LinkedIn: [alejandra-keber](www.linkedin.com/in/alejandra-keber)
 
+👤 **Prangon Ghose**
+
+- GitHub: [@PrangonGhose](https://github.com/PrangonGhose)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

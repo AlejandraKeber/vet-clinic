@@ -55,3 +55,13 @@ CREATE TABLE visits(
     visit_date DATE,
     PRIMARY KEY(animal_id, vet_id, visit_date)
 );
+
+-- Database performance audit
+
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+CREATE INDEX animal_visits ON visits(animal_id ASC);
+
+CREATE INDEX vet_visits ON visits(vet_id ASC);
+
+CREATE INDEX email_ids ON owners(email ASC);
